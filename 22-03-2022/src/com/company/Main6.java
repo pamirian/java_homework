@@ -6,13 +6,12 @@ package com.company;
 3 6 9 12 …… .27 30
 ………………………………
 10 20 30 …… 90 100
+Задача реализована без метода((( возникли затруднения
  */
 
 public class Main6 {
     public static void main(String[] args) {
-        int a =10;
-        int b=10;
-        int i=1;
+        int a =10, b=10, i=1;
         while (i<=a){
             int j=1;
             while (j<=b) {
