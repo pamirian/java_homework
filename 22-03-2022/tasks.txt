@@ -1,0 +1,28 @@
+Implement a method that prints the given String N times.
+printLineNtimes(“hello”,3) -> hello
+hello
+hello
+
+Implement method “countdown” that prints numbers from 5 to 1, than prints „start“
+countdown() -> 5
+4
+3
+2
+1
+Start
+
+Given two integers number1 and number2. Implement method that printы all numbers between number1 and number2 that divisible by 3.
+Example: printDivisibleByTree(10,20) ->
+12
+15
+18
+
+Given two integers number1 and number2. Implement method that returns the sum of all numbers between number1 and number2 that divisible by 3.
+Example: getSumDivisibleByTreeNumbers(20,10) -> 45
+
+5 *Implement method that prints that prints multiply table
+1 2 3 4 ……… 9 10
+2 4 6 8 ……… 18 20
+3 6 9 12 …… .27 30
+………………………………
+10 20 30 …… 90 100
