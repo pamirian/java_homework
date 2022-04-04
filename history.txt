@@ -1,0 +1,1411 @@
+    1  brew
+    2  wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh\nsh install.sh
+    3  sudo apt-get install fonts-powerline
+    4  pamirian
+    5  sudo apt-get install fonts-powerline
+    6  pamirian
+    7  sudo apt-get install fonts-powerline
+    8  sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    9  zsh --version
+   10  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   11  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   12  ./install.sh
+   13  https://github.com/powerline/powerline.git
+   14  vim ~/.zshrc
+   15  git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+   16  vim ~/.zshrc
+   17  ls -la
+   18  cd Pictures
+   19  git status
+   20  cd~
+   21  cd ~
+   22  whoami
+   23  xcode-select -p
+   24  /usr/sbin/pkgutil --packages | grep C
+   25  /usr/sbin/pkgutil --pkg-info com.apple.pkg.CLTools_Executables
+   26  xcode-select --install
+   27  brew
+   28  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+   29  brew doctor
+   30  git version
+   31  brew git install
+   32  brew upgrade git
+   33  brew install git
+   34  brew upgrade git
+   35  brew install ruby-install chruby
+   36  defaults write com.apple.finder AppleShowAllFiles TRUE; killall Finder
+   37  code ~/.zshrc
+   38  ruby-install -V
+   39  chruby -h
+   40  cd /usr/local/share/chruby/
+   41  ls -la
+   42  ruby-install --latest
+   43  ruby-install --latest ruby
+   44  ruby -v
+   45  cd ~
+   46  sudo xcodebuild -license
+   47  ruby-install --latest
+   48  ruby-install --latest ruby
+   49  ruby -v
+   50  gem -v
+   51  gem update --system
+   52  echo "gem: --no-document" >> ~/.gemrc
+   53  gem install nokogiri
+   54  \trvm pkg install openssl
+   55  rvm reinstall ruby-2.0.0-p0 --with-gcc=gcc-4.7 --with-openssl-dir=$rvm_path/usr
+   56  brew install automake
+   57  rvm pkg install openssl
+   58  whereis ruby
+   59  brew install openssl\nCONFIGURE_OPTS=--with-openssl-dir=$(brew --prefix openssl) rbenv install whatever-ruby-version
+   60  rvm pkg install openssl
+   61  ruby -v
+   62  gem -v
+   63  gem update --system
+   64  \trvm pkg install openssl
+   65  which ruby
+   66  rvm list
+   67  ruby-install --latest ruby
+   68  rvm list
+   69  ruby -v
+   70  gem -v
+   71  gem update --system\n\n
+   72  \curl -sSL https://get.rvm.io | bash -s stable
+   73  gem -v
+   74  gem update --system\n\n
+   75  gem -v
+   76  rvm list
+   77  unset GEM_HOME
+   78  rvm list
+   79  gem -v
+   80  rvm list
+   81  ~/.rbenv/shims:/usr/local/bin:/usr/bin:/bin
+   82  brew install rbenv
+   83  rbenv init
+   84  curl -fsSL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-doctor | bash
+   85  rbenv install
+   86  rvm list
+   87  gem -v
+   88  gem update --system\n\n
+   89  gem -v
+   90  gem update --system\n\n
+   91  which ruby
+   92  ruby -v
+   93  gem install bundler
+   94  brew install ruby\nexport GEM_HOME="$HOME/.gem"\ngem install rails
+   95  ruby -v
+   96  rvm list
+   97  rvm get stable --auto-dotfiles
+   98  rvm list
+   99  rvm use .gem
+  100  rvm_silence_path_mismatch_check_flag=1
+  101  rvm list
+  102  rvm use .gem
+  103  rvm help
+  104  gem install bundler
+  105  brew install rbenv
+  106  gem update --system\n\n
+  107  rbenv init
+  108  brew doctor
+  109  ruby -v
+  110  gem -v
+  111  gem update --system
+  112  [200~p10k configure~
+  113  ~p10k configure~
+  114  ~p10k configure
+  115  [200~echo $POWERLEVEL9K_INSTANT_PROMPT~
+  116  echo $POWERLEVEL9K_INSTANT_PROMPT
+  117  compaudit | xargs chmod g-w,o-w
+  118  brew install chruby ruby-install
+  119  vim /usr/local/share/chruby/chruby.sh
+  120  chruby 2.4.3
+  121  brew install rbenv
+  122  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+  123  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB\n\curl -sSL https://get.rvm.io | bash -s stable
+  124  rvm install 2.4.3
+  125  q
+  126  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB\n\curl -sSL https://get.rvm.io | bash -s stable
+  127  gem -v
+  128  gem update --system
+  129  ruby -v
+  130  gem update --system
+  131  echo "gem: --no-document" >> ~/.gemrc
+  132  gem install nokogiri
+  133  gem install rails
+  134  gem install rails --version=6.1.0
+  135  rails -v
+  136  sudo gem install rails
+  137  rails -v
+  138  sudo gem install rails
+  139  gem install rails
+  140  mkdir workspace
+  141  cd workspace
+  142  rails new myapp
+  143  rails new
+  144  cd ~
+  145  gem install rails
+  146  gem 'rails', '~> 6.1'
+  147  gem install rails
+  148  rvm gemdir
+  149  gem install rails -v 4.2.3
+  150  gem install rails -v 4.2.2
+  151  gem install sprockets -v 3.7.2
+  152  ruby ver
+  153  rails -v
+  154  sudo gem install rails
+  155  sudo gem install activesupport -v 4.2.6
+  156  rails -v
+  157  sudo gem install cocoapods
+  158  cd workspace
+  159  rails new myapp
+  160  gem install rails
+  161  sudo ruby -v
+  162  ruby --version
+  163  rvm --version
+  164  bundle --version
+  165  gem env version
+  166  gem install "rubygems-update:<3.0.0" --no-document
+  167  update_rubygems
+  168  gem update --system --conservative || (gem i "rubygems-update:~>2.7" --no-document && update_rubygems)
+  169  gem update bundler --conservative
+  170  rails new myapp
+  171  cd ~
+  172  gem install rails
+  173  gem install rails -v 6.0.0
+  174  ruby -v
+  175  brew upgrade ruby
+  176  ruby -v
+  177  ruby --version
+  178  em install zeitwerk -v 2.4.2
+  179  gem install zeitwerk -v 2.4.2
+  180  gem udrgade zeitwerk
+  181  gem upgrade  zeitwerk
+  182  gem update zeitwerk
+  183  gem install rails --pr
+  184  e
+  185  gem install rails --pre
+  186  rvm use ruby-2.5.7
+  187  gem install rails
+  188  sudo gem install rails -v 4.1.16
+  189  rvm use ruby-2.5.7
+  190  rvm install  ruby-2.5.7
+  191  ruby --version
+  192  rails -v
+  193  gem install rails
+  194  rails -v
+  195  ls- la
+  196  ls -la
+  197  cd wo
+  198  cd workspace
+  199  rails new myapp
+  200  gem install node.js
+  201  gem install node.rb
+  202  rails -T
+  203  rails server
+  204  ruby -v
+  205  brew ruby
+  206  brew install golang
+  207  brew install kafka
+  208  brew install rabbitmq
+  209  brew install redis
+  210  brew install wget
+  211  brew services
+  212  brew services start
+  213  brew services start -all
+  214  brew services start --all
+  215  brew install postgress
+  216  brew install photoshop
+  217  ruby-install -V
+  218  chruby -h
+  219  ruby-install --latest
+  220  ruby-install --latest ruby
+  221  ruby -v
+  222  brew install ruby-install chruby
+  223  code ~/.zshrc
+  224  ruby-install -V
+  225  chruby -h
+  226  ruby-install --latest
+  227  ruby-install --latest ruby
+  228  RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl)" ruby-install --latest ruby
+  229  brew install openssl
+  230  brew uninstall --ignore-dependencies openssl
+  231  brew install https://github.com/tebelorg/Tump/releases/download/v1.0.0/openssl.rb\n
+  232  brew uninstall openssl
+  233  brew tap-new $USER/old-openssl
+  234  brew extract --version=1.0.2t openssl $USER/old-openssl
+  235  brew install openssh
+  236  ruby-install --latest ruby
+  237  brew uninstall openssl --ignore-dependencies; brew uninstall openssl --ignore-dependencies; brew uninstall libressl --ignore-dependencies; brew install openssh;
+  238  brew uninstall openssl
+  239  sudo chown -R whoami /usr/local
+  240  whoami
+  241  sudo chown -R manu /usr/local
+  242  brew install openssl
+  243  ls /usr/local/opt/openssl
+  244  /usr/local/opt/openssl/lib
+  245  ls /usr/local/opt/openssl/lib
+  246  ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/
+  247  ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/
+  248  ruby-install --latest ruby
+  249  mkdir -p /usr/local/lib
+  250  ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/
+  251  brew install openssl
+  252  ls /usr/local/opt/openssl/lib
+  253  ln -s /usr/local/opt/openssl/lib/libcrypto.1.1.1.dylib /usr/local/lib/
+  254  ln -s /usr/local/opt/openssl/lib/libssl.1.1.1.dylib /usr/local/lib/
+  255  ruby-install --latest ruby
+  256  openssl version -a
+  257  brew info openssl
+  258  ruby-install --latest ruby
+  259  brew info openssl
+  260  ruby -v
+  261  chruby -h
+  262  ruby -v
+  263  gem -v
+  264  gem update --system
+  265  echo "gem: --no-document" >> ~/.gemrc
+  266  gem install nokogiri
+  267  brew install wget
+  268  ssh-keygen -t rsa
+  269  cat ~/.ssh/id_rsa.pub
+  270  ssh-keygen -t rsa
+  271  cat ~/.ssh/id_rsa.pub
+  272  pbcopy < ~/.ssh/id_rsa.pub
+  273  git config --global alias.please 'push --force-with-lease'
+  274  git config --global alias.commend 'commit --amend --no-edit'
+  275  git config --global alias.it \ '!git init && git commit -m “root” --allow-empty'
+  276  git config --global alias.stsh 'stash --keep-index'
+  277  git config --global alias.staash 'stash --include-untracked'
+  278  git config --global alias.staaash 'stash --all'
+  279  git config --global alias.shorty 'status --short --branch'
+  280  git config --global alias.merc 'merge --no-ff'
+  281  git config --global alias.grog 'log --graph --abbrev-commit --decorate --all --format=format:"%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(dim white) - %an%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n %C(white)%s%C(reset)"'
+  282  [code]source ~/.zshrc[/code]
+  283  wget
+  284  wget --help
+  285  git
+  286  ls -la
+  287  la
+  288  echo "# biblio" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/pamirian/biblio.git\ngit push -u origin main
+  289  git config --global user.name kate
+  290  git config --global user.email rooh@mail.ru
+  291  echo "# biblio" >> README.md\ngit init\ngit add README.md\ngit commit -m "first commit"\ngit branch -M main\ngit remote add origin https://github.com/pamirian/biblio.git\ngit push -u origin main
+  292  la
+  293  cd workspace
+  294  la
+  295  mk dir biblio
+  296  mkdir bibloi
+  297  mkdir
+  298  mkdir -p biblio
+  299  cd biblio
+  300  git status
+  301  git add
+  302  git add.
+  303  git add .
+  304  git status
+  305  cd~
+  306  cd ~
+  307  ls -la
+  308  chflags nohidden ~/Library
+  309  cd .vscode
+  310  la
+  311  gcc
+  312  xcode-select --install
+  313  xcode-select -p
+  314  sudo rm -rf /Library/Developer/CommandLineTools
+  315  pamirian
+  316  sudo rm -rf /Library/Developer/CommandLineTools
+  317  pamirian
+  318  sudo rm -rf /Library/Developer/CommandLineTools
+  319  gcc
+  320  xcode-select -p
+  321  /usr/sbin/pkgutil --packages | grep CL
+  322  /usr/sbin/pkgutil --pkg-info com.apple.pkg.CLTools_Executables
+  323  docker run -d -p 80:80 docker/getting-started
+  324  ssh
+  325  REMOTE_WORKSPACE_PATH = /Users/manu/Library/Application Support/Code/User/globalStorage/humy2833.ftp-simple/remote-workspace-tem
+  326  git status
+  327  cd workspace/
+  328  git init
+  329  fpt
+  330  sftp
+  331  fpt://
+  332  cd ~
+  333  Open Gatekeeper friendly.
+  334  /Volumes/Adobe\ Photoshop\ 2020\ v21.2.3/Extra/Install.app/Contents/MacOS/Install ; exit;
+  335  git config --global user.name "kate"
+  336  la
+  337  ssh-keygen -t rsa -f ~/.ssh/appuser -C appuser -P ""
+  338  /.ssh/appuser.pub
+  339  .ssh/appuser.pub
+  340  cd .ssh
+  341  la
+  342  appuser.pub
+  343  vim appuser.pub
+  344  ip
+  345  ssh -i ~/.ssh/appuser appuser@<Публичный IPv4>
+  346  ssh -i ~/.ssh/appuser appuser@
+  347  ssh -i ~/.ssh/appuser
+  348  ssh -i ~/.ssh/appuser appuser@192.168.1.72
+  349  ssh -i ~/.ssh/appuser appuser@178.154.229.251
+  350  la
+  351  cd .shh
+  352  cd .ssh
+  353  la
+  354  appuser.pub
+  355  code appuser.pub
+  356  vim appuser.pub
+  357  ssh -i ~/.ssh/appuser appuser@192.168.1.72
+  358  ssh -i ~/.ssh/appuser appuser@178.154.229.251
+  359  ssh -i ~/.ssh/appuser appuser@10.130.0.9
+  360  ssh -i ~/.ssh/appuser appuser@178.154.229.251
+  361  ssh -i ~/.ssh/appuser appuser@10.130.0.20
+  362  ssh-add -L
+  363  ssh-add ~/.ssh/appuser
+  364  ssh -i ~/.ssh/appuser -A appuser@10.130.0.9
+  365  git status
+  366  ssh -i ~/.ssh/appuser -A appuser@10.130.0.9
+  367  git status
+  368  la
+  369  git status
+  370  git config --global user.name manu
+  371  git config --global user.email rooh@mail.ru
+  372  git clone https://github.com/Otus-DevOps-2020-11/mAlishera_infra.git
+  373  la
+  374  git clone https://github.com/Otus-DevOps-2020-11/mAlishera_microservices.git
+  375  la
+  376  cd mAlishera_infra
+  377  -i ~/.ssh/appuser appuser@178.154.229.251
+  378  ssh -i ~/.ssh/appuser appuser@178.154.229.251
+  379  ssh -i ~/.ssh/appuser appuser@10.130.0.9
+  380  ssh -i ~/.ssh/appuser appuser@10.130.0.20
+  381  ssh -i ~/.ssh/appuser appuser@178.154.229.251
+  382  ssh-add -L
+  383  ssh-add ~/.ssh/appuser
+  384  ssh -i ~/.ssh/appuser appuser@178.154.229.251
+  385  ssh -i ~/.ssh/appuser -A appuser@178.154.229.251
+  386  /usr/local/opt/python@3.9/bin/python3.9 /Users/manu/.vscode/extensions/ms-python.python-2020.12.424452561/pythonFiles/pyvsc-run-isolated.py pip install -U pylint --user
+  387  ssh -i ~/.ssh/appuser -A appuser@178.154.229.251
+  388  cat /etc/*release*
+  389  ssh -i ~/.ssh/appuser -A appuser@178.154.229.251
+  390  la
+  391  cd 
+  392  cd mAlishera_infra
+  393  la
+  394  git checkout -b cloud-bastion
+  395  cd~
+  396  cd ~
+  397  la
+  398  /.ssh/appuser.pub
+  399  vim /.ssh/appuser.pub
+  400  cd .ssh
+  401  la
+  402  vin appuser.pub
+  403  vim appuser.pub
+  404  cd ~
+  405  ssh -i ~/.ssh/appuser appuser@84.201.134.43
+  406  ls
+  407  la
+  408  cd .ssh
+  409  la
+  410  code appuser.pub
+  411  ssh -i ~/.ssh/appuser appuser@130.193.37.36
+  412  ssh -i ~/.ssh/appuser -A appuser@130.193.37.36
+  413  esit
+  414  ssh -i ~/.ssh/appuser appuser@130.193.37.36
+  415  ssh-keygen -t rsa -f ~/.ssh/appuser -C appuser -P ""
+  416  la
+  417  cd .ssh
+  418  ls
+  419  code appuser.pub
+  420  ssh -i ~/.ssh/appuser appuser@84.201.156.113
+  421  exit
+  422  ssh -i ~/.ssh/appuser appuser@84.201.156.113
+  423  cd .ssh
+  424  la
+  425  code appuser.pub
+  426  ssh -i ~/.ssh/appuser appuser@130.193.56.106
+  427  ssh-add -L
+  428  ssh -i ~/.ssh/appuser -A appuser@130.193.56.106
+  429  ssh-add ~/.ssh/appuser Identity added: /Users/otus/.ssh/appuser (/Users/otus/.ssh/appuser)
+  430  ~/.ssh/appuser
+  431  cd ~
+  432  ssh-add -L
+  433  ssh-add ~/.ssh/appuser Identity added: /Users/otus/.ssh/appuser (/Users/otus/.ssh/appuser)
+  434  la
+  435  ssh -i ~/.ssh/appuser -A appuser@130.193.56.106
+  436  ssh-add -L
+  437  ssh-add ~/.ssh/appuser Identity added: /Users/otus/.ssh/appuser (/Users/otus/.ssh/appuser)
+  438  ssh -i ~/.ssh/appuser -A appuser@130.193.56.106
+  439  la
+  440  cd .ssh
+  441  la
+  442  code appuser
+  443  code appuser.pub
+  444  cd ~
+  445  ssh-add -L
+  446  cd .ssh
+  447  code appuser.pub
+  448  cd ~
+  449  ssh -i ~/.ssh/appuser -A appuser@130.193.56.106
+  450  ssh-add -L
+  451  la
+  452  cd .ssh
+  453  la
+  454  cd ~
+  455  ssh-keygen
+  456  ssh-keygen -t rsa -f ~/.ssh/appuser -C appuser -P ""
+  457  ssh -i ~/.ssh/appuser -A appuser@130.193.56.106
+  458  cd .ssh
+  459  ls
+  460  la
+  461  code known_hosts
+  462  cd ~
+  463  la
+  464  cd .ssh
+  465  la
+  466  code appuser.pub
+  467  cd~
+  468  cd ~
+  469  ssh -i ~/.ssh/appuser appuser@178.154.235.98
+  470  ssh-add -L
+  471  ssh-add ~/.ssh/appuser
+  472  ssh -i ~/.ssh/appuser -A appuser@178.154.235.98
+  473  la
+  474  cd .ssh
+  475  la
+  476  code appuser.pub
+  477  ssh -i ~/.ssh/appuser appuser@130.193.57.60
+  478  cd ~
+  479  ssh-add -L
+  480  ssh-add ~/.ssh/appuser
+  481  ssh -i ~/.ssh/appuser appuser@130.193.57.60
+  482  ssh -i ~/.ssh/appuser -A  appuser@130.193.57.60
+  483  ssh -i ~/.ssh/appuser -A appuser@130.193.57.60 ssh 10.128.0.10
+  484  ssh -i ~/.ssh/appuser -A appuser@130.193.57.60
+  485  ssh -i ~/.ssh/appuser -At appuser@130.193.57.60 ssh appuser@10.128.0.10 
+  486  ssh -i ~/.ssh/appuser -A appuser@130.193.57.60
+  487  ssh -i ~/.ssh/appuser appuser@130.193.57.60
+  488  ssh -i ~/.ssh/appuser -A appuser@130.193.57.60
+  489  la
+  490  ls
+  491  ssh -i ~/.ssh/appuser -A appuser@130.193.57.60
+  492  la
+  493  cd .ssh
+  494  la
+  495  code appuser.pub
+  496  ssh -i ~/.ssh/appuser appuser@84.201.140.99
+  497  ssh -i ~/.ssh/appuser -A appuser@84.201.140.99
+  498  ssh -i ~/.ssh/appuser -At appuser@84.201.140.99 ssh appuser@10.129.0.18
+  499  ssh -i ~/.ssh/appuser -A appuser@84.201.140.99
+  500  ssh -i ~/.ssh/appuser -A appuser@84.201.139.137
+  501  la
+  502  $ ssh -i ~/.ssh/appuser appuser@10.129.0.18
+  503  ssh -i ~/.ssh/appuser -A appuser@84.201.139.137
+  504  open vpn
+  505  ssh -i ~/.ssh/appuser -A appuser@84.201.139.137
+  506  ssh -i ~/.ssh/appuser  appuser@10.129.0.18
+  507  cd mAlishera_infra
+  508  ls la
+  509  ls
+  510  cd~
+  511  cd ~
+  512  ls la
+  513  la
+  514  cd mAlishera_infra
+  515  ls
+  516  cd ~
+  517  vim .gitconfig
+  518  cd mAlishera_infra
+  519  git checkout master
+  520  git checkout main
+  521  git pull origin main
+  522  git checkout -b HW-1
+  523  git pull origin HW-1
+  524  git push origin HW-1
+  525  git checkout cloud-bastion 
+  526  git push origin cloud-bastion 
+  527  ssh -i ~/.ssh/appuser -At appuser@84.201.139.137 ssh appuser@10.129.0.18
+  528  ssh -i ~/.ssh/appuser -At appuser@84.201.139.137
+  529  cd ~
+  530  ls al
+  531  ls la
+  532  ls -la
+  533  cd m
+  534  cd mAlishera_infra
+  535  ls -la
+  536  ssh -i ~/.ssh/appuser -At appuser@84.201.139.137
+  537  ls 
+  538  cd ~
+  539  cd mAlishera_infra
+  540  ls 
+  541  ls
+  542  vim setupvpn.sh
+  543  ls la
+  544  ls -la
+  545  code README.md
+  546  code .
+  547  git add .
+  548  ssh -i  -At appuser@84.201.139.137 ssh appuser@10.129.0.18
+  549  ssh -At appuser@84.201.139.137 ssh appuser@10.129.0.18
+  550  ssh -At appuser@bastion  ssh appuser@10.129.0.18
+  551  git add .
+  552  git commit -m 'HW5 cloud-bastion done'
+  553  git push origin cloud-bastion 
+  554  cd ~
+  555  /opt/cprocsp/bin/csptest -card -enum
+  556  sudo /opt/cprocsp/bin/csptest -card -enum
+  557  /opt/cprocsp/bin/certmgr -list
+  558  set ssl dtlsProfile nsdtls_default_profile -helloVerifyRequest ENABLED
+  559  show dtlsProfile
+  560  ssh -i -At appuser@84.201.139.137 ssh appuser@10.129.0.18
+  561  ssh -At appuser@84.201.139.137 ssh appuser@10.129.0.18
+  562  ls
+  563  ls la
+  564  ls -la
+  565  cd 
+  566  cd selagorodov
+  567  ls -la
+  568  /Volumes/Adobe\ Zii\ for\ Adobe\ CC15\ -\ CC18\ 3.0.4/Open\ Gatekeeper\ friendly ; exit;
+  569  /Volumes/Adobe\ Premiere\ Pro\ 2020\ v14.0.1/Extra/Install.app/Contents/MacOS/Install ; exit;
+  570  sudo spctl –master-disable
+  571  /Volumes/Adobe\ Photoshop\ 2020\ v21.0.2/Extra/Install.app/Contents/MacOS/Install ; exit;
+  572  ls
+  573  cd python
+  574  ls -l
+  575  chmod u+x,g+w,o+x golyanovo1.jpg
+  576  ls -l
+  577  chmod 644 golyanovo1.jpg
+  578  ls -l
+  579  chmod 111  golyanovo1.jpg
+  580  ls -l
+  581  chmod 644  golyanovo1.jpg
+  582  ls -l
+  583  sudo xattr -rd com.apple.quarantine /Applications/LockedApp.app
+  584  sudo spctl --master-disable
+  585  /Volumes/Adobe\ Illustrator\ 2021\ v25.1/Extra/Install.app/Contents/MacOS/Install ; exit;
+  586  ls -l /proc/self/exe | awk '{print $NF}'
+  587  netstat -na | grep ESTABLISHED\n
+  588  top
+  589  traceroute
+  590  echo $$
+  591  999
+  592  echo $$
+  593  git status
+  594  cd
+  595  ls -ls
+  596  vim
+  597  ls
+  598  -
+  599  quit
+  600  ls-
+  601  ls -la
+  602  ls
+  603  cd gett
+  604  cd 
+  605  cd getting-started
+  606  ls 
+  607  https://github.com/pamirian/orodeluxe.ru.git
+  608  git remote add origin https://github.com/pamirian/biblio.git
+  609  git branch -M main
+  610  git push -u origin main
+  611  git remote add origin https://github.com/pamirian/biblio.git\ngit branch -M main\ngit push -u origin main
+  612  https://github.com/pamirian/biblio.git
+  613  git remote add origin https://github.com/pamirian/biblio.git
+  614  cd..
+  615  cd
+  616  git remote add origin https://github.com/pamirian/biblio.git
+  617  cd
+  618  ls
+  619  dir
+  620  cd
+  621  cd..
+  622  sh dir
+  623  ls 
+  624  cd Java
+  625  dir
+  626  cd
+  627  ls
+  628  dir
+  629  mkdir
+  630  eiit
+  631  quit
+  632  3
+  633  sh 3
+  634  li 
+  635  ls la
+  636  cd
+  637  ls ls
+  638  ls la
+  639  ls
+  640  ls -la
+  641  ls -a
+  642  dir
+  643  show dir
+  644  help
+  645  cd
+  646  help
+  647  ls
+  648  ls -a
+  649  ls
+  650  ls -lh
+  651  ls
+  652  ls -l
+  653  cat yes.pub
+  654  cd sites
+  655  ls
+  656  cd diana-site
+  657  ls
+  658  cat index.php
+  659  wim
+  660  cat index.php
+  661  vim 
+  662  ls
+  663  cd
+  664  ls 
+  665  ls /
+  666  cd desktop
+  667  cd
+  668  cd /desktop
+  669  ls
+  670  mkdir Linux
+  671  cd Linux
+  672  mkdir /user1
+  673  mkdir user1
+  674  cd user1
+  675  mkdir task1
+  676  ls 
+  677  touch file1.txt
+  678  ls
+  679  cd task1
+  680  touch file1.txt
+  681  ls
+  682  ls -l
+  683  pwd
+  684  cd/
+  685  cd
+  686  ls la
+  687  ls -la
+  688  cd Linux
+  689  ls
+  690  cd user1
+  691  cd..
+  692  cd ..
+  693  cd Linux
+  694  cd user1
+  695  cd 
+  696  ls
+  697  cd Linux
+  698  ls
+  699  cd used
+  700  cd user
+  701  cd user1
+  702  ls 
+  703  ls /
+  704  ls -la
+  705  untoach file1.txt
+  706  ls
+  707  cd
+  708  ls
+  709  ls 
+  710  cd 
+  711  cd Linux
+  712  ls
+  713  ls -la
+  714  cd user1
+  715  vim
+  716  cd
+  717  ls
+  718  cd Linux
+  719  ls
+  720  md homeworks
+  721  ls
+  722  cd homeworks
+  723  md 03
+  724  cd 03
+  725  echo 1.txt
+  726  ls
+  727  cat 1.txt
+  728  ls
+  729  ls -la
+  730  cd
+  731  ls
+  732  cd Linux
+  733  ls
+  734  cd homeworks
+  735  ls
+  736  cd 03
+  737  ls
+  738  touch 1.txt
+  739  cat 1.txt
+  740  echo "Hello" > 1.txt
+  741  cat 1.txt
+  742  cd..
+  743  cd ..
+  744  ls
+  745  cd user1
+  746  ls
+  747  ls -i
+  748  ls -ih
+  749  ls -h
+  750  ls -la /tmp
+  751  ls
+  752  ssh-keygen
+  753  cat .ssh/id_rsa.pub
+  754  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+  755  ls
+  756  cd Linux
+  757  ls
+  758  vi text.txt
+  759  cat text.txt
+  760  vim text.txt
+  761  clear
+  762  vim text.txt
+  763  nano text.txt
+  764  bru nano
+  765  brue
+  766  brew nano
+  767  install
+  768  bru nano
+  769  brew nano 
+  770  brew 
+  771  brew update nano
+  772  brew update
+  773  kill
+  774  kill p
+  775  atom text.txt
+  776  vscode text.txt
+  777  brew install vscode
+  778  св
+  779  cd
+  780  ls
+  781  top
+  782  ps -ef | grep ssh
+  783  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+  784  ls -ls
+  785  cat .ssh/id_rsa.pub
+  786  ls -la
+  787  cd Javarush
+  788  LS -LA
+  789  javac calculator.java
+  790  ls -la
+  791  nano calculator.java
+  792  ls -la
+  793  javac calculator.java
+  794  ls -la
+  795  java Calculator 1 3
+  796  java Calculator 11 110
+  797  nano Calculator.java
+  798  javac calculator.java
+  799  nano Calculator.java
+  800  javac calculator.java
+  801  java Calculator
+  802  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+  803  cd ..
+  804  ls -la
+  805  cd Java
+  806  ls -la
+  807  cd java_homework
+  808  ls -la
+  809  git init
+  810  git add .
+  811  git commit -m "tasks"
+  812  git config
+  813  git config --global user.name
+  814  git config --global user.email
+  815  git config -global user.email mirzoshoev@gmail.com
+  816  git config --global user.email mirzoshoev@gmail.com
+  817  git branch -M main
+  818  git branch -M master
+  819  git config --global user.email
+  820  git config --global user.name
+  821  git push -u origin master
+  822  git config --global user.name pamirian
+  823  git push -u origin master
+  824  git remote add origin git@github.com:pamirian/java_homework.git
+  825  git push -u origin master
+  826  git branch -M main
+  827  cd .
+  828  cd /
+  829  cd 
+  830  ls -la
+  831  cd Java
+  832  ls -la
+  833  cd java_homework/ls -la
+  834  ls -la
+  835  cd java_homework
+  836  ls -la
+  837  cat list.rtf
+  838  nano list.rtf
+  839  es
+  840  nano list.rtf
+  841  ls -l
+  842  cd Java
+  843  ls -la
+  844  cd java_homework
+  845  git init
+  846  git add .
+  847  commit -m "tasks"
+  848  git commit -m "tasks"
+  849  git branch -M main
+  850  git remote add origin git@github.com:pamirian/java_homework.git
+  851  git push -u origin main
+  852  git status
+  853  git add
+  854  git add .
+  855  git commit -m "all tasks"
+  856  git push -u origin main
+  857  nano list.rtf
+  858  nano tasks.txt
+  859  ls -la
+  860  rm list.rtf
+  861  ls -la
+  862  git add .
+  863  git status
+  864  git push -u origin main
+  865  ls -la
+  866  git status
+  867  git push -u origin main
+  868  ls -la
+  869  git commit -m "all tasks txt"
+  870  git push -u origin main
+  871  nano tasks.txt
+  872  git commit -m "all tasks txt2"
+  873  git add .
+  874  git commit -m "all tasks txt2"
+  875  git push -u origin main
+  876  clear
+  877  history
+  878  clear
+  879  git status
+  880  git commit -m "tasks in folder"
+  881  git add .
+  882  git commit -m "tasks in folder"
+  883  git push -u origin main
+  884  clear
+  885  cd ..
+  886  ls -la
+  887  cd java_homework
+  888  ls -la
+  889  nano .gitignore
+  890  ls -la
+  891  clear
+  892  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+  893  cd..
+  894  cd ..
+  895  cd/
+  896  cd
+  897  ls-la
+  898  ls -la
+  899  cd FE
+  900  ls -la
+  901  cd homework
+  902  ls -la
+  903  cd ..
+  904  ls -la
+  905  cd fe_homework
+  906  ls -la
+  907  git init
+  908  git add .
+  909  git commit -m "first commit"
+  910  branch -M main
+  911  git branch -M main
+  912  git remote add origin git@github.com:pamirian/fe_homework.git
+  913  cd ..
+  914  mkdir CSS Media Queries
+  915  ls -la
+  916  cd fe_homework
+  917  git status
+  918  cd..
+  919  cd
+  920  ls -la
+  921  cd Java
+  922  ls -la
+  923  cd HomeworkMethods
+  924  ls -la
+  925  cd src
+  926  la -la
+  927  cd com
+  928  la -la
+  929  cd company
+  930  la -la
+  931  cd/
+  932  cd ..
+  933  ls -la
+  934  cd..
+  935  cd 
+  936  ls -la
+  937  cd Java
+  938  ls -la
+  939  cd HomeworkMethodsTask1/ls -la
+  940  cd HomeworkMethodsTask1
+  941  ls -la
+  942  cd ..
+  943  cd java_homework
+  944  ls -la
+  945  cd 10-03-2022
+  946  ls -la
+  947  git status
+  948  git add .
+  949  git commit -M "add Task1"
+  950  git commit -n "add Task1"
+  951  git commit -m "add Task1"
+  952  git push
+  953  ls -la
+  954  git status
+  955  git add .
+  956  git commit -m "add Task2"
+  957  git push
+  958  ls -la
+  959  cd Applications
+  960  ls -la
+  961  cd..
+  962  cd
+  963  cd Applications
+  964  cd ..
+  965  cd Applications
+  966  cd /
+  967  cd ..
+  968  ls -la
+  969  cd Applications
+  970  ls -la
+  971  cd /
+  972  ls -la
+  973  cd Users
+  974  ls -la
+  975  cd manu
+  976  ls -la
+  977  mkdir 111
+  978  ls -la
+  979  cd 111
+  980  ls -la
+  981  cd ..
+  982  ls -la
+  983  rmdir 111
+  984  ls -la
+  985  mkdir 111
+  986  ls -la
+  987  cd FE
+  988  ls -la
+  989  cd ..
+  990  cd /111/
+  991  cd /111
+  992  cd 111
+  993  mkdir 222
+  994  cd ..
+  995  ls -la
+  996  cd 111
+  997  ls -la
+  998  mkdir 333
+  999  ls -la
+ 1000  cd ..
+ 1001  ls -la
+ 1002  mkdir 111/222/444
+ 1003  cd 111
+ 1004  cd 222
+ 1005  ls -la
+ 1006  cd ..
+ 1007  ls -la
+ 1008  cd ..
+ 1009  cd 111
+ 1010  cd 222
+ 1011  cd 444
+ 1012  cd
+ 1013  ls -la
+ 1014  cd 111/222/444
+ 1015  cd ..
+ 1016  ls -la
+ 1017  cd /
+ 1018  ls -la
+ 1019  cd 111/222/444
+ 1020  cd Users/manu/111/222/444
+ 1021  cd 
+ 1022  ls -la
+ 1023  rmdir 111
+ 1024  rmdir -p 111
+ 1025  rmdir -r  111
+ 1026  rmdir help
+ 1027  rmdir h
+ 1028  rmdir -h
+ 1029  rmdir -p 111
+ 1030  rm -r dir 111
+ 1031  rmdir -r  111
+ 1032  rmdir --r 111
+ 1033  rmdir -r 111
+ 1034  rmdir -p 111
+ 1035  rmdir /111/222/444
+ 1036  cd  111
+ 1037  rmdir -rf 111/222/444
+ 1038  rmdir -rf /111/222/444
+ 1039  cd  111
+ 1040  ls la1
+ 1041  ls -la
+ 1042  mkdir 111
+ 1043  cd 111
+ 1044  mkdir 222
+ 1045  cd ..
+ 1046  ls -la
+ 1047  rmdir -rf 111
+ 1048  ls -la
+ 1049  rmdir -rf 111/222
+ 1050  ls -la
+ 1051  rmdir -rf 111/222/
+ 1052  ls -la
+ 1053  rm -rf 111
+ 1054  ls -la
+ 1055  mkdir 111
+ 1056  cd 111
+ 1057  mkdir 222
+ 1058  cd ..
+ 1059  ls -la
+ 1060  rm -rf 111
+ 1061  ls -la
+ 1062  CCssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ 1063  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ 1064  ls -la
+ 1065  cd Java
+ 1066  ls -la
+ 1067  cd java_homework
+ 1068  git status
+ 1069  git add .
+ 1070  ды -дф
+ 1071  ls -la
+ 1072  cd Desktop
+ 1073  ls -la
+ 1074  defaults write com.apple.screencapture location ~/Desktop/
+ 1075  killall SystemUIServer
+ 1076  defaults write com.apple.finder AppleShowAllFiles -bool TRUE && killall Finder
+ 1077  defaults write com.apple.screencapture type JPG && killall SystemUIServer
+ 1078  defaults write com.apple.screencapture location ~/Desktop/Screenshots && killall SystemUIServer
+ 1079  killall yes
+ 1080  св юю
+ 1081  cd ..
+ 1082  killall yes
+ 1083  ping 8.8.8.8
+ 1084  ping -c 5 -s 100  8.8.8.8
+ 1085  ping -c 5 -s 60  8.8.8.8
+ 1086  ping -c 5 -s 10  8.8.8.8
+ 1087  ping -c 5 8.8.8.8
+ 1088  ping -c 5 -s 10 -i 3  8.8.8.8
+ 1089  ping -c 5 -s 10 -i 3  8.8.8.8 >>1.txt
+ 1090  cat 1.txt
+ 1091  sl -la
+ 1092  ls -la
+ 1093  cd Java
+ 1094  cd java_homework
+ 1095  ping -c 4 -s 28 -i 2  8.8.8.8 >>1.txt
+ 1096  cat 1.txt
+ 1097  ls -la
+ 1098  ping -c 4 -s 28 -i 2  8.8.8.8 >>1.txt
+ 1099  cd ..
+ 1100  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ 1101  cd HomeworkMethods
+ 1102  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ 1103  ls -l
+ 1104  ls -la
+ 1105  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ 1106  ls -la
+ 1107  cd Java
+ 1108  ls -la
+ 1109  curl ifconfig.co
+ 1110  curl ifconfig.io
+ 1111  curl ifconfig.co
+ 1112  whoami
+ 1113  cd Java
+ 1114  ls -la
+ 1115  cd java_homework
+ 1116  ls -la
+ 1117  cd 22-03-2022
+ 1118  nano tasks.txt
+ 1119  ls -la
+ 1120  cd ..
+ 1121  ls -la
+ 1122  git status
+ 1123  git add .
+ 1124  git commit -m "womework 22-10-2022"
+ 1125  git push
+ 1126  ls -la
+ 1127  cd 22-03-2022
+ 1128  ls -la
+ 1129  cd src
+ 1130  ls -la
+ 1131  cd com
+ 1132  ls -la
+ 1133  cd company
+ 1134  ls -la
+ 1135  nano Main6.java
+ 1136  св Омф
+ 1137  cd Java
+ 1138  cd java_homework
+ 1139  ls -la
+ 1140  git status
+ 1141  git add .
+ 1142  git commit -m "womework 22-10-2022"
+ 1143  git push
+ 1144  ls -la
+ 1145  cd 22-03-2022
+ 1146  ls -la
+ 1147  cd src
+ 1148  ls -la
+ 1149  cd com
+ 1150  ls -la
+ 1151  cd company
+ 1152  ls -la
+ 1153  cat Main6.java
+ 1154  cat Main6.java.save
+ 1155  ls -la
+ 1156  cat Main6.java.save
+ 1157  ls -la
+ 1158  nano Main6.java.save
+ 1159  cd Java/java_homework/
+ 1160  ls -la
+ 1161  git status
+ 1162  git add .
+ 1163  git commit -m "Homework 22-10-2022"
+ 1164  git push
+ 1165  cd ..
+ 1166  ls -la
+ 1167  cd Java
+ 1168  ls -la
+ 1169  mkdir java-practice_homework
+ 1170  ls -la
+ 1171  cd java-practice_homework
+ 1172  git init
+ 1173  git commit -m "first commit"
+ 1174  git branch -M main
+ 1175  git add .
+ 1176  git commit -m "first commit"
+ 1177  git branch -M main
+ 1178  cd ..
+ 1179  ls -la
+ 1180  rm java-practice_homework
+ 1181  rmdir java-practice_homework
+ 1182  ls -la
+ 1183  cd java-practice_homework
+ 1184  ls -la
+ 1185  git branch -M main
+ 1186  cd ..
+ 1187  ls -la
+ 1188  cd Java
+ 1189  ls -la
+ 1190  mkdir java-practice_homework
+ 1191  ls -la
+ 1192  cd java-practice_homework
+ 1193  git init
+ 1194  git add .
+ 1195  git commit -m "first commit"
+ 1196  git branch -M main
+ 1197  cd ..
+ 1198  cd java_homework
+ 1199  cd ..
+ 1200  cd java-practice_homework
+ 1201  git branch -M main
+ 1202  ls -la
+ 1203  cd .git
+ 1204  ls -la
+ 1205  nano HEAD
+ 1206  git status
+ 1207  cd ..
+ 1208  ls -la
+ 1209  git status
+ 1210  git remote add origin git@github.com:pamirian/java-practice_homework.git
+ 1211  git status
+ 1212  git add . 
+ 1213  git commit -m "Homework practice 23-03-2022"
+ 1214  git push -u origin main
+ 1215  git status
+ 1216  git add . 
+ 1217  git commit -m "Homework practice 23-03-2022"
+ 1218  git push
+ 1219  cd ..
+ 1220  cd java_homework
+ 1221  ls -la
+ 1222  cd 22-03-2022
+ 1223  ls -la
+ 1224  cd src
+ 1225  ls -la
+ 1226  cd com
+ 1227  ls -la
+ 1228  cd company
+ 1229  ls -la
+ 1230  cat Main6.java
+ 1231  ls -la
+ 1232  cd ..
+ 1233  cd..
+ 1234  cd ..
+ 1235  ls -la
+ 1236  cd 22-03-2022
+ 1237  git status
+ 1238  git add .
+ 1239  git commit -m "method added"
+ 1240  git push
+ 1241  git global -h
+ 1242  git global --help
+ 1243  git --help
+ 1244  cd ..
+ 1245  cd..
+ 1246  cd ..
+ 1247  ls -la
+ 1248  cd Linux
+ 1249  nano script.sh
+ 1250  chmod +x script.sh
+ 1251  ls -la
+ 1252  bash script.sh
+ 1253  bash script.sh file
+ 1254  nano script.sh
+ 1255  pwd
+ 1256  nano script.sh
+ 1257  bash script.sh file
+ 1258  nano script.sh
+ 1259  bash script.sh file
+ 1260  bash script.sh file2
+ 1261  ls -la
+ 1262  bash script.sh file2
+ 1263  bash script.sh file1
+ 1264  bash script.sh file2
+ 1265  nano script.sh
+ 1266  bash script.sh file2
+ 1267  nano script.sh
+ 1268  bash script.sh file2
+ 1269  nano script.sh
+ 1270  bash script.sh file2
+ 1271  nano script.sh
+ 1272  LS -LA
+ 1273  rm file2
+ 1274  bash script.sh file2
+ 1275  nano script.sh
+ 1276  ls -la
+ 1277  cd Java
+ 1278  ls 0la
+ 1279  ls -la
+ 1280  cd java-practice_homework
+ 1281  git status
+ 1282  git add .
+ 1283  git commit -m "Homework 28-03-2022"
+ 1284  git push
+ 1285  ls -la
+ 1286  cd Java
+ 1287  ls -la
+ 1288  cd java-practice_homework
+ 1289  ls -la
+ 1290  git status
+ 1291  ls -la
+ 1292  cd ..
+ 1293  cd java-practice_homework
+ 1294  git status
+ 1295  cd java-practice_homework
+ 1296  git status
+ 1297  cd java-practice_homework
+ 1298  git status
+ 1299  ls-la
+ 1300  ls -la
+ 1301  mk dir 111
+ 1302  ls -la
+ 1303  cd ..
+ 1304  ls -la
+ 1305  cd Java
+ 1306  cd java-practice_homework
+ 1307  ls -la
+ 1308  mkdir 111
+ 1309  ls -la
+ 1310  git status
+ 1311  git add .
+ 1312  git status
+ 1313  mkdir 111
+ 1314  ls -al
+ 1315  cd 111
+ 1316  ls 0la
+ 1317  ls -la
+ 1318  touch 1.txt
+ 1319  nano 1.txt
+ 1320  cd ..
+ 1321  cd java-practice_homework
+ 1322  git status
+ 1323  rmdir 111
+ 1324  rmdir -p 111
+ 1325  rmdir -r 111
+ 1326  rmdir -help
+ 1327  rmdir -p 111
+ 1328  rmdir -p /111
+ 1329  rmdir -p 111
+ 1330  rm 111
+ 1331  rm -r 111
+ 1332  git status
+ 1333  cd java-practice_homework
+ 1334  ls -la
+ 1335  git status
+ 1336  mkdir 111
+ 1337  ls -la
+ 1338  nano /111/1.txt
+ 1339  cd 111
+ 1340  ls -la
+ 1341  nano 1.txt
+ 1342  ls -la
+ 1343  git status
+ 1344  cd ..
+ 1345  git status
+ 1346  cd 111
+ 1347  rm 1.txt
+ 1348  cd 111
+ 1349  cd ..
+ 1350  git status
+ 1351* cd ..
+ 1352* ls -la
+ 1353* cd ..
+ 1354* ls -la
+ 1355* cd java-practice_homework
+ 1356* git status
+ 1357* ls -la
+ 1358* cd ..
+ 1359* ls -la
+ 1360* git status
+ 1361* git add.
+ 1362* git add .
+ 1363* git commit -m "next homework added"
+ 1364* git push
+ 1365* git init
+ 1366* git commit -m "files added"
+ 1367* git push
+ 1368* git status
+ 1369* git add .
+ 1370* git commit -m "files added"
+ 1371* ls -la
+ 1372* cd ..
+ 1373* ls -la
+ 1374* git init
+ 1375* git add .
+ 1376* git commit -m "29-03 homework"
+ 1377* git push
+ 1378  cd ..
+ 1379  ls -la
+ 1380  cd java_homework
+ 1381  ls -la
+ 1382  cd ..
+ 1383  cd java_homework
+ 1384  git status
+ 1385  git add .
+ 1386  git commit -m "homework 29-03 added"
+ 1387  git push
+ 1388  git commit -m "homework 22-03 added"
+ 1389  git push
+ 1390  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ 1391* git status
+ 1392* cd ..
+ 1393* ls -la
+ 1394* git status
+ 1395* git add .
+ 1396* git commit -m "29-03-2022 homework"
+ 1397* git push
+ 1398  ls -la
+ 1399  ssh -i ~/.ssh/id_rsa ec2-user@linux.telran-edu.de
+ 1400* ls -la
+ 1401* cd ..
+ 1402* ls -la
+ 1403* git status
+ 1404* cd java-practice
+ 1405* git status
+ 1406* cd ..
+ 1407* cd java-practice_homework
+ 1408* git status
+ 1409  history
+ 1410  history >> history.txt
+ 1411  nano history.txt
