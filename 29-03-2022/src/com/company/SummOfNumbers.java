@@ -8,6 +8,7 @@ import java.util.Scanner;
 
 public class SummOfNumbers {
     public static void main(String[] args) {
+        System.out.println("Enter numbers: ");
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         int sum = 0;

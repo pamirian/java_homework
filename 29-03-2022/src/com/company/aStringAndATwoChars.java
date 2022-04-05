@@ -5,9 +5,29 @@ first char was replaced by the second char. You have to use only length() and ch
  */
 public class aStringAndATwoChars {
     public static void main(String[] args) {
-       strObr("more expresso - less depresso ", 'x', 's');
+        System.out.println(aStringAndTwoChars("more expresso - less depresso ", 'x', 's'));
     }
-    public static void strObr(String str, char a, char b) {
+    public static String aStringAndTwoChars(String str, char a, char b) {
+        System.out.println(str);
+        String result = "";
+        for (int i=0; i<str.length(); i++) {
+            if (str.charAt(i) == a) {
+                result = result+b;
+            } else {
+                result = result+str.charAt(i);
+            }
+        }
+        return result;
+    }
+}
+
+/*
+public class aStringAndATwoChars {
+    public static void main(String[] args) {
+        aStringAndTwoChars("more expresso - less depresso ", 'x', 's');
+    }
+    public static void aStringAndTwoChars(String str, char a, char b) {
+       // System.out.println(str);
         for (int i=0; i<str.length(); i++) {
             if (str.charAt(i) == a) {
                 System.out.print(b);
@@ -17,3 +37,4 @@ public class aStringAndATwoChars {
         }
     }
 }
+ */
