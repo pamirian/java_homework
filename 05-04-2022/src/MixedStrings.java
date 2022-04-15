@@ -11,21 +11,26 @@ public class MixedStrings {
 
     public static String mixedStrings(String str1, String str2) {
         String result = "";
-            if (str1.length() == str2.length()) {
-                for (int i = 0; i < (str1.length()); i++) {
+        if (str1.length() == str2.length()) {
+            for (int i = 0; i < (str1.length()); i++) {
                 result = result + str1.charAt(i) + str2.charAt(i);
             }
-            } else if (str1.length() > str2.length()){
-                for (int i = 0; i < (str2.length()); i++) {
-                    result = result + str1.charAt(i) + str2.charAt(i);
-                }
-
-            }else if (str2.length() > str1.length()){
-                for (int i = 0; i < (str1.length()); i++) {
-                    result = result + str1.charAt(i) + str2.charAt(i);
-                }
+        } else if (str1.length() > str2.length()) {
+            for (int i = 0; i < (str2.length()); i++) {
+                result = result + str1.charAt(i) + str2.charAt(i);
             }
-                return result;
+            for (int i = (str1.length() - str2.length()); i < str1.length(); i++) {
+                result = result + str1.charAt(i);
+            }
+        } else if (str2.length() > str1.length()) {
+            for (int i = 0; i < (str1.length()); i++) {
+                result = result + str1.charAt(i) + str2.charAt(i);
+            }
+            for (int i = (str2.length() - str1.length()); i < str2.length(); i++) {
+                result = result + str2.charAt(i);
+            }
+        }
+        return result;
     }
 }
 
