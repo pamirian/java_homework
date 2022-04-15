@@ -4,8 +4,8 @@ every second character of the original string
  */
 public class EverySecondCharacter {
     public static void main(String[] args) {
-        System.out.println(everySecondCharacter("abcde"));
-        System.out.println(everySecondCharacter("Hello Java"));
+        System.out.println("\"abcde\" -> "+everySecondCharacter("abcde"));
+        System.out.println("\"Hello Java\" -> "+everySecondCharacter("Hello Java"));
     }
 
     public static String everySecondCharacter(String str) {

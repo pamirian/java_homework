@@ -7,9 +7,9 @@ string mixed through one with chars from other String
  */
 public class MixedStrings {
     public static void main(String[] args) {
-        System.out.println(mixedStrings("abcd", "qwer"));
-        System.out.println(mixedStrings("ab", "qwer"));
-        System.out.println(mixedStrings("abcd", "qw"));
+        System.out.println("\"abcd, qwer\" -> "+mixedStrings("abcd", "qwer"));
+        System.out.println("\"ab, qwer\" -> "+mixedStrings("ab", "qwer"));
+        System.out.println("\"abcd, qw\" -> "+mixedStrings("abcd", "qw"));
     }
 
     public static String mixedStrings(String str1, String str2) {
