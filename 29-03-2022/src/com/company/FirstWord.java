@@ -13,8 +13,11 @@ public class FirstWord {
     public static void strHor(String str) {
       for (int i=0; (i < str.length())&&(str.charAt(i)!=' '); i++){
             System.out.print(str.charAt(i));
+
             }
+        System.out.print(3&1);
         }
+
         /* public static void strHor2(String str) {
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) != ' ') {
