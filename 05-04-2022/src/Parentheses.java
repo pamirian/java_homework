@@ -16,12 +16,11 @@ public class Parentheses {
         boolean result = false;
         int parenthesOpenCounter = 0, parenthesClosedCounter = 0;
         for (int i = 0; i < str.length(); i++) {
-            char currentSymbol = str.charAt(i);
-            if (currentSymbol == ')') {
-                parenthesClosedCounter = parenthesClosedCounter + 1;
+            if (str.charAt(i) == ')') {
+                parenthesClosedCounter++;
             }
-            if (currentSymbol == '(') {
-                parenthesOpenCounter = parenthesOpenCounter + 1;
+            if (str.charAt(i) == '(') {
+                parenthesOpenCounter++;
             }
         }
         if (parenthesOpenCounter == parenthesClosedCounter) {

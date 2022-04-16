@@ -1,6 +1,8 @@
 /*
 Implement the method that takes a strings and returns the new string that contains
 every second character of the original string
+“abcde” -> “bd”
+“Hello Java” -> “el aa”
  */
 public class EverySecondCharacter {
     public static void main(String[] args) {
