@@ -6,7 +6,8 @@ Implement a method that returns the new array that is the given array in reverse
 public class NewReverseArray {
     public static void main(String[] args) {
         int[] arr = {10, 3, 3, 5, -9};
-        System.out.println("{10, 3, 3, 5, -9} -> " + getNewReverseArray(arr));
+       // System.out.println("{10, 3, 3, 5, -9} -> " + getNewReverseArray(arr));
+        System.out.print("Coming soon..");
     }
 public static int[] getNewReverseArray(int[] arr){
     for (int i = 0; i < arr.length ; i++) {

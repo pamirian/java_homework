@@ -10,18 +10,11 @@ public class PowerOfTwoArray {
     }
     public static void getPowerOfTwoArray(int number){
        int[] arr = new int[number];
-        arr[0] = 1;
-        for (int i = 1; i < number; i++) {
-            arr[i] = arr[i-1] * 2;
-            System.out.println(arr[0]+" "+arr[i]);
+        for (int i = 0; i < number; i++) {
+            arr[i] = i * 2;
+            System.out.print(arr[i]+"="+i+" ");
+            System.out.print("Coming soon..");
         }
-    }
-
-    public static void printArray(int[] arr){
-        for (int i = 0; i <arr.length ; i++) {
-            System.out.print("["+i+"]="+ arr[i]+"  ");
-        }
-        System.out.println();
     }
 
 }
