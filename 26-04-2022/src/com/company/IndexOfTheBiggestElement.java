@@ -1,5 +1,4 @@
 package com.company;
-
 /*
 Implement a method that returns the index of the biggest element of a given array of int
 {10, 33, 3, 5, -9} -> 1

@@ -6,15 +6,24 @@ powerOfTwo (5) -> {1,2,4,8,16}
  */
 public class PowerOfTwoArray {
     public static void main(String[] args) {
-        getPowerOfTwoArray(5);
+        int number = 5;
+        System.out.print(number+" -> ");
+        getArray(makePowerOfTwoArray(number));
+        //the max value of n is 31 because Maximum value of integer type is 2 to the power of 31 - 1.
     }
-    public static void getPowerOfTwoArray(int number){
-       int[] arr = new int[number];
-        for (int i = 0; i < number; i++) {
-            arr[i] = i * 2;
-            System.out.print(arr[i]+"="+i+" ");
-            System.out.print("Coming soon..");
+    public static int[] makePowerOfTwoArray(int number){
+        int[] arr = new int[number];
+        for (int i = 1; i < arr.length; i++) {
+             arr[0] = 1;
+             arr[i] = arr[i-1]*2;
         }
+        return arr;
     }
-
+    public static void getArray (int[] array){
+        System.out.print("{ ");
+        for (int i = 0; i < array.length ; i++) {
+            System.out.print(array[i]+" ");
+        }
+        System.out.println("}");
+    }
 }
