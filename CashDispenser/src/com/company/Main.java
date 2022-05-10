@@ -18,16 +18,16 @@ public class Main {
         while (!isFalse) {
             int getMoney = console.nextInt();
 
-            int totalMoneyInBancomat = 0;
+            int totalMoneyInDispenser = 0;
             for (int i = 0; i < moneyNominals.length; ) {
                 for (int j = 0; j < moneyQuantity.length; j++) {
                     int allNominals = moneyNominals[i] * moneyQuantity[j];
-                    totalMoneyInBancomat = totalMoneyInBancomat + allNominals;
+                    totalMoneyInDispenser = totalMoneyInDispenser + allNominals;
                     i++;
                 }
             }
 
-            if (getMoney > totalMoneyInBancomat) {
+            if (getMoney > totalMoneyInDispenser) {
                 System.out.println("В банкомате недостаточно денег");
                 // return;
             } else {
@@ -42,10 +42,10 @@ public class Main {
                                 getMoney = getMoney - moneyNominals[j];
                                 i = getMoney;
                                 moneyQuantity[j]--;
-                                totalMoneyInBancomat = totalMoneyInBancomat - moneyNominals[j];
+                                totalMoneyInDispenser = totalMoneyInDispenser - moneyNominals[j];
 
                                 System.out.println("Выдана банкнота: " + moneyNominals[j]);
-                                if (totalMoneyInBancomat <= 0) {
+                                if (totalMoneyInDispenser <= 0) {
                                     System.out.println("Денег больше нет, но вы держитесь...");
                                     isFalse = true;
                                 }
