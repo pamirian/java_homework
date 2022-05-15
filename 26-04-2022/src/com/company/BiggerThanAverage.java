@@ -11,7 +11,7 @@ public class BiggerThanAverage {
     }
    public static void getBiggerThanAverage(int[] arr){
        int sum = 0;
-       for (int i = 0; i < arr.length; i++) {
+       for (int i = 0; i < arr.length; i++) { //!
            sum = sum + arr[i];
        }
        for (int i = 0; i < arr.length ; i++) {
