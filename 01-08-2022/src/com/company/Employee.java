@@ -17,7 +17,7 @@ public class Employee {
 
     // метод, который выводит информацию об объекте в консоль.
     void getEmployeeInfo() {
-        if (age > 40) {
+        if (this.age > 40) {
             System.out.println("Name: " + this.name + ", Position: " + this.jobTitle + ", Email: " + this.email + ", Phone:" + this.phone + ", Salary: " + salary + ", Age: " + age);
         }
     }
