@@ -2,8 +2,7 @@ package com.company;
 
 public class Employee {
     String name, jobTitle, email, phone;
-    int salary;
-    int age;
+    int salary, age;
 
     // Параметризированный конструктор
     Employee(String name, String jobTitle, String email, String phone, int salary, int age) {
@@ -16,9 +15,9 @@ public class Employee {
     }
 
     // метод, который выводит информацию об объекте в консоль.
-    void getEmployeeInfo() {
-        if (this.age > 40) {
-            System.out.println("Name: " + this.name + ", Position: " + this.jobTitle + ", Email: " + this.email + ", Phone:" + this.phone + ", Salary: " + salary + ", Age: " + age);
+    void getEmployeeInfo(int age) {
+        if (this.age > age) {
+            System.out.println("Name: " + this.name + ", Position: " + this.jobTitle + ", Email: " + this.email + ", Phone: " + this.phone + ", Salary: " + this.salary + ", Age: " + this.age);
         }
     }
 
