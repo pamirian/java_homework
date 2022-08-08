@@ -1,8 +1,8 @@
 package com.company;
 
 public class Point {
-    private int coordX;
-    private int coordY;
+    private double coordX;
+    private double coordY;
     private int colorR;
     private int colorG;
     private int colorB;
@@ -16,19 +16,19 @@ public class Point {
     }
 
     //Конструктор с параметрами
-    public Point(int coordX, int coordY, int colorR, int colorG, int colorB) {
+    public Point(double coordX, double coordY, int colorR, int colorG, int colorB) {
         this.coordX = coordX;
         this.coordY = coordY;
-        this.colorR = colorR;
-        this.colorG = colorG;
-        this.colorB = colorB;
+        setColorR(colorR);
+        setColorG(colorG);
+        setColorB(colorB);
     }
 
-    public void setCoordX(int coordX) {
+    public void setCoordX(double coordX) {
         this.coordX = coordX;
     }
 
-    public void setCoordY(int coordY) {
+    public void setCoordY(double coordY) {
         this.coordY = coordY;
     }
 
@@ -74,7 +74,13 @@ public class Point {
         }
     }
 
-    public void printPoint(){
-        System.out.println("Координаты точки: [x="+coordX + ", y=" +coordY + "], цвет: ("+colorR+","+colorG+","+colorB+")");
+    @Override
+    public String toString() {
+        return "Координаты точки: [x="+coordX +", y="+coordY + "], цвет: ("+colorR+", "+colorG+", "+colorB+")";
     }
+
+//    public void printPoint(){
+//        System.out.println("Координаты точки: [x="+coordX + ", y=" +coordY + "], цвет: ("+colorR+","+colorG+","+colorB+")");
+//    }
+
 }
