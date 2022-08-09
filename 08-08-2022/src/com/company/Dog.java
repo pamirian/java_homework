@@ -2,7 +2,6 @@ package com.company;
 
 public class Dog extends Animal {
     private String name;
-    private int distance;
 
     public Dog(String name) {
         this.name = name;

@@ -2,7 +2,6 @@ package com.company;
 
 public class Animal {
     private String name;
-    private int distance;
 
     public Animal() {
     }
