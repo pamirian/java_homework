@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println("-------------");
 
-        Animal animal4 = new Cat("Сммба");
+        Animal animal4 = new Cat("Симба");
         animal4.run(130);
         animal4.swim(10);
 
