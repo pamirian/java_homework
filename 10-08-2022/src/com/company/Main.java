@@ -4,13 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-	Employee employee1 = new Staffer("John Lennon", "Soft Engeneer", 1000);
+    Employee employee1 = new Staffer("John Lennon", "Soft Engeneer", 1000);
     Staffer employee2 = new Staffer("Paul McCartney", "Soft Engeneer", 1000);
 
     Employee employee3 = new Contractor("Ringo Starr", "DeVops", 800);
     Contractor employee4 = new Contractor("George Harrison", "QA", 800);
 
-        System.out.println();
+    System.out.println();
 
     employee1.setBonus(100);
     employee1.calculateSalary();
