@@ -6,7 +6,7 @@ Second level: Написать функциональный интерфейс �
 public class Main2 {
 
     public static void main(String[] args) {
-        double number = 39;
+        double number = 13;
 //        Dividable dividable = new Dividable() {
 //            @Override
 //            public boolean divide(double num) {
@@ -15,10 +15,10 @@ public class Main2 {
 //        };
 
         Dividable dividable = a -> {
-            return a%13==0;
+            return a%number==0;
         };
 
-        System.out.println(dividable.divide(number));
+        System.out.println(dividable.divide(39));
 
     }
     @FunctionalInterface
